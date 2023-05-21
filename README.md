@@ -4,6 +4,9 @@ New features are listed in the news time even before a release with short exampl
 information. In the process of a release, the details from the newstime are transferred to the
 release notes.
 
+* [2023-05-21] The deployment of OpenSearch is currently broken on the rolling tags. A solution is
+  being worked on.
+
 * [2023-05-19] Docker Hub can now be used when using Squid as internal proxy.
 
 * [2023-05-19] [Clustershell](https://clustershell.readthedocs.io/en/latest/intro.html) can now
