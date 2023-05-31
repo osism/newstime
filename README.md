@@ -4,6 +4,9 @@ New features are listed in the news time even before a release with short exampl
 information. In the process of a release, the details from the newstime are transferred to the
 release notes.
 
+* [2023-05-31] Kolla has released the first RC for Antelope (2023.1) and work has started on
+  getting it into OSISM.
+
 * [2023-05-31] Validation of sub-environments is now possible with the new ``--environment``
   parameter for the ``validate`` command. This also fixes a problem with the ``validate``
   command that stopped validation of individual service configurations after the introduction
