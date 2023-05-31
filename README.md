@@ -4,6 +4,11 @@ New features are listed in the news time even before a release with short exampl
 information. In the process of a release, the details from the newstime are transferred to the
 release notes.
 
+* [2023-05-31] Validation of sub-environments is now possible with the new ``--environment``
+  parameter for the ``validate`` command. This also fixes a problem with the ``validate``
+  command that stopped validation of individual service configurations after the introduction
+  of sub-environments ([osism/issues#538](https://github.com/osism/python-osism/pull/453)).
+
 * [2023-05-31] A validator for the RGW service is now also available for Ceph.
 
   ```
