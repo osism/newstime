@@ -4,6 +4,12 @@ New features are listed in the news time even before a release with short exampl
 information. In the process of a release, the details from the newstime are transferred to the
 release notes.
 
+* [2023-05-31] A validator for the RGW service is now also available for Ceph.
+
+  ```
+  $ osism validate ceph-rgws
+  ```
+
 * [2023-05-21] [Kubernetes Cluster API image](https://github.com/osism/k8s-capi-images) v1.27.2
   is available.
 
