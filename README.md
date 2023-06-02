@@ -4,6 +4,9 @@ New features are listed in the news time even before a release with short exampl
 information. In the process of a release, the details from the newstime are transferred to the
 release notes.
 
+* [2023-06-02]  [Garden Linux image](https://github.com/osism/openstack-image-gardenlinux)
+  v934.9 is available.
+
 * [2023-06-01] With ``vault`` a new command is available in the OSISM client which will be used to
   control the vault service in the future. Currently, it can be used to set the password for
   Ansible Vault. This way the current approach via ``/opt/configuration/environments/.vault_pass``
