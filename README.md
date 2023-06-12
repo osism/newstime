@@ -4,6 +4,20 @@ New features are listed in the news time even before a release with short exampl
 information. In the process of a release, the details from the newstime are transferred to the
 release notes.
 
+* [2023-06-12] With the command ``versions manager`` it is possible to get the
+  OSISM version as well as a specific release of a module.
+
+  ```
+  $ osism versions manager
+  +---------------+-----------------+------------------+
+  | Module        | OSISM version   | Module release   |
+  |---------------+-----------------+------------------|
+  | osism-ansible | latest          |                  |
+  | ceph-ansible  | latest          | pacific          |
+  | kolla-ansible | latest          | zed              |
+  +---------------+-----------------+------------------+
+  ```
+
 * [2023-06-02]  [Garden Linux image](https://github.com/osism/openstack-image-gardenlinux)
   v934.9 is available.
 
