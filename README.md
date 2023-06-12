@@ -4,6 +4,9 @@ New features are listed in the news time even before a release with short exampl
 information. In the process of a release, the details from the newstime are transferred to the
 release notes.
 
+* [2023-06-12] [Debian 12 (Bookworm) has been released](https://www.debian.org/News/2023/20230610)
+  and is now enabled by default in the OpenStack Image Manager.
+
 * [2023-06-12] With the command ``versions manager`` it is possible to get the
   OSISM version as well as a specific release of a module.
 
