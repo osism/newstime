@@ -4,6 +4,8 @@ New features are listed in the news time even before a release with short exampl
 information. In the process of a release, the details from the newstime are transferred to the
 release notes.
 
+* [2023-06-12] Bring back colored Ansible output.
+
 * [2023-06-12] From now on, the ``osism-update-manager`` script ignores existing Ansible
   installations on the system and only uses Ansible versions supported by ``osism-update-manager``
   in a virtual Python environment. This avoids recurring conflicts when updating the manager in
