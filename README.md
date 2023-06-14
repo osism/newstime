@@ -4,6 +4,11 @@ New features are listed in the news time even before a release with short exampl
 information. In the process of a release, the details from the newstime are transferred to the
 release notes.
 
+* [2023-06-14] [Aptly](https://github.com/osism/helm-charts/tree/gh-pages/aptly) mirror setup
+  (for deb packages) is now available to be deployed alongside OSISM installations. This requires
+  additional infrastructure. Have a look at the [documentation](https://github.com/osism/docs/tree/main/docs/operations/external_services/aptly_external.md)
+  for more details.
+
 * [2023-06-12] Bring back colored Ansible output.
 
 * [2023-06-12] From now on, the ``osism-update-manager`` script ignores existing Ansible
