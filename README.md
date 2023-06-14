@@ -18,11 +18,11 @@ release notes.
 * [2023-06-12] [Debian 12 (Bookworm) has been released](https://www.debian.org/News/2023/20230610)
   and is now enabled by default in the OpenStack Image Manager.
 
-* [2023-06-12] With the command ``versions manager`` it is possible to get the
+* [2023-06-12] With the command ``get versions manager`` it is possible to get the
   OSISM version as well as a specific release of a module.
 
   ```
-  $ osism versions manager
+  $ osism get versions manager
   +---------------+-----------------+------------------+
   | Module        | OSISM version   | Module release   |
   |---------------+-----------------+------------------|
