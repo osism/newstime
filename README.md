@@ -4,6 +4,9 @@ New features are listed in the news time even before a release with short exampl
 information. In the process of a release, the details from the newstime are transferred to the
 release notes.
 
+* [2023-06-14] In the [cookiecutter](https://github.com/osism/cfg-cookiecutter), new ``nova-compute``
+  services were disabled by default and must now be enabled manually after deployment and verification.
+
 * [2023-06-14] The [manager playbooks](https://github.com/osism/ansible-playbooks-manager) are
   now also published on Ansible Galaxy as [osism.manager](https://galaxy.ansible.com/osism/manager).
 
