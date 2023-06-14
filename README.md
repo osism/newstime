@@ -4,6 +4,18 @@ New features are listed in the news time even before a release with short exampl
 information. In the process of a release, the details from the newstime are transferred to the
 release notes.
 
+# Not yet released
+
+# 5.2.0
+
+* [2023-06-14] Ceph Quincy is now used by default. Existing environments must be upgraded from
+  Pacific to Quincy.
+
+  ```
+  osism apply ceph-rolling_update -e ireallymeanit=yes
+  osism apply cephclient
+  ```
+
 * [2023-06-14] In the [cookiecutter](https://github.com/osism/cfg-cookiecutter), new ``nova-compute``
   services were disabled by default and must now be enabled manually after deployment and verification.
 
